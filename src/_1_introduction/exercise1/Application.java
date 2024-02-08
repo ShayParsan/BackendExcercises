@@ -3,7 +3,7 @@ package _1javaintroduction.basicsyntax.oefening1;
 public class Application {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
 
         System.out.println("What is your first name?");
         String firstName = scanner.nextLine();
