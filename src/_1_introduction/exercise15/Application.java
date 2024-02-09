@@ -1,4 +1,4 @@
-package _1javaintroduction.methods.oefening3;
+package _1_introduction.exercise15;
 
 public class Application {
 

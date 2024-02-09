@@ -1,4 +1,4 @@
-package _1javaintroduction.basicsyntax.oefening6;
+package _1_introduction.exercise6;
 
 public class Application {
 

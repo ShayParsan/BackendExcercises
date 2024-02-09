@@ -1,4 +1,4 @@
-package _2javaclasses.classes.oefening3;
+package _2_classes._1_introduction_to_classes.exercise3;
 
 public class Application {
 

@@ -1,4 +1,4 @@
-package _2javaclasses.classes.oefening8;
+package _2_classes._1_introduction_to_classes.exercise8;
 
 public class Person {
 

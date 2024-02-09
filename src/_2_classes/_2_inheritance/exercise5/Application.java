@@ -1,4 +1,4 @@
-package _2javaclasses.polymorphism.oefening5;
+package _2_classes._2_inheritance.exercise5;
 
 public class Application {
 
