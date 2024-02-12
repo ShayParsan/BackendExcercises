@@ -2,8 +2,8 @@
 
 Create an abstract class `Animal`:
 - The class has a constructor that takes the animal's name as an argument
-- The class has a method `public void sleep()` that prints "<name-animal> sleeps"
-- The class has a method `public void eat()` that prints "<name-animal> eats"
+- The class has a method `public void sleep()` that prints "\<name-animal\> sleeps"
+- The class has a method `public void eat()` that prints "\<name-animal\> eats"
 - The class has a method `public String getName()` that returns the animal's name
 
 ## Dog
@@ -11,17 +11,17 @@ Create an abstract class `Animal`:
 Create a class `Dog` that inherits from `Animal`.
   - The class has a constructor that takes the dog's name as an argument
   - The class has a constructor with no arguments that names the dog "Dog"
-  - The class has a method `public void bark()` that prints "<name-animal> barks"
+  - The class has a method `public void bark()` that prints "\<name-animal\> barks"
   - The methods `sleep` and `eat` are unchanged from `Animal`
 
 Usage of the class looks like this:
 
 ```java
-Dog dog = new dog();
+Dog dog = new Dog();
 dog.bark();
 dog.eat();
 
-dog amaretto = new dog("Amaretto");
+Dog amaretto = new Dog("Amaretto");
 amaretto.bark();
 ```
 
@@ -38,7 +38,7 @@ Amaretto barks
 Create a class `Cat` that inherits from `Animal`.
   - The class has a constructor that takes the name of the cat as an argument
   - The class has a constructor with no arguments that names the cat "Cat"
-  - The class has a method `public void meow()` that prints "<name-animal> meows"
+  - The class has a method `public void meow()` that prints "\<name-animal\> meows"
   - The methods `sleep` and `eat` are unchanged from `Animal`
 
 Usage of the class looks like this:
