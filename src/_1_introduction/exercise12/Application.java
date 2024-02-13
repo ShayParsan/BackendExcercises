@@ -12,6 +12,8 @@ public class Application {
             sum = sum +i;
         }
         System.out.println(sum);
+        scanner.close();
 
     }
+
 }
