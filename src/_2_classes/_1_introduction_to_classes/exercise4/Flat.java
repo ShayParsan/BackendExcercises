@@ -12,5 +12,19 @@ public class Flat {
         this.pricePerSquareMeter = pricePerSquareMeter;
     }
 
+    public boolean largerThan(Flat toCompare){
+        if (this.squareMeters > toCompare.squareMeters){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+        public int priceDifference(Flat toCompare){
+            int PriceDiff = Math.abs(this.pricePerSquareMeter - toCompare.pricePerSquareMeter);
+            return PriceDiff;
+
+        }
+
 
 }

@@ -11,11 +11,16 @@ public class Account {
     }
 
     public void withdraw(int amount) {
-        balance = balance - amount;
+        
+        if (amount>balance) {
+            throw new IllegalArgumentException("can't withdraw");
 
-        if (balance > 0) {
-            balance = 0;
+        } else {
+            balance = balance - amount;
+
         }
+
+        
     }
 
     public void deposit(int amount) {

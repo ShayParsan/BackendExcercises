@@ -1,6 +1,7 @@
 package _3_arrays_collections.exercise9;
 
 import java.util.HashMap;
+import java.util.List;
 
 public class Application {
 
@@ -18,14 +19,25 @@ public class Application {
     }
 
     private static void printKeys(HashMap<String, String> hashmap) {
+        System.out.println(hashmap.keySet());
 
     }
 
-    private static void printKeysWhere(HashMap<String, String> hashmap, String text) {
-
-    }
+    public static void printKeysWhere(HashMap<String, String> hashmap, String text) {
+        for (String key : hashmap.keySet()) {
+            if (key.contains(text)) {
+                System.out.println(key);
+            }
+        }
+        }
 
     private static void printValuesOfKeysWhere(HashMap<String, String> hashmap, String text) {
+        for (String value : hashmap.values()) {
+            if (value.contains(text)) {
+                System.out.println(value);
+            }
+        }
+        }
 
     }
-}
+

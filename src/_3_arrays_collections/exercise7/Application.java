@@ -3,7 +3,12 @@ package _3_arrays_collections.exercise7;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Application {
+public class Application extends LicensePlate {
+
+    public Application(String landCode, String code) {
+        super(landCode, code);
+        
+    }
 
     public static void main(String[] args) {
         LicensePlate p1 = new LicensePlate("BE", "1-SUT-515");
@@ -30,4 +35,6 @@ public class Application {
         System.out.println(owners.get(new LicensePlate("D", "B WQ-431")));
         // If the hashCode method is not implemented, the owner will not be found
     }
+
+   
 }

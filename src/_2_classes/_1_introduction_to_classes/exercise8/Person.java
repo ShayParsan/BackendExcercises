@@ -5,21 +5,50 @@ public class Person {
     private String name;
     private Person mother;
     private Person father;
+    private Person sibling;
+    private Person grandparent;
 
+    public Person(String name) {
+        this.name = name;
+        
+    }
+   
     public Person(String name, Person mother, Person father) {
         this.name = name;
         this.mother = mother;
         this.father = father;
     }
 
+    public Person(String name, Person mother, Person father, Person sibling) {
+        this.name = name;
+        this.mother = mother;
+        this.father = father;
+        this.sibling = sibling;
+    }
+
     public boolean isSiblingOf(Person person) {
+        if ((this.sibling).equals(person)){
+            return true;
+        } else{
         // Return "true" if this object is the sibling of the person given as a parameter
         return false;
+        }
+    }
+
+    public Person sibling(Person sibling){
+        return this.sibling = sibling;
+    }
+
+    public Person grandparent(Person grandparent){
+        return this.grandparent = grandparent;
     }
 
     public boolean isGrandparentOf(Person person) {
-        // Return "true" if this object is the grandparent of the person given as a parameter
+        if ((this.grandparent).equals(person)){
+            return true;
+        } else{
         return false;
+        }
     }
 
     public boolean isGrandchildOf(Person person) {
